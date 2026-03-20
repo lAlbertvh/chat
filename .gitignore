@@ -1,0 +1,40 @@
+# Зависимости
+**/node_modules/
+**/package-lock.json
+**/yarn.lock
+
+# Логи и отладочные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Сборки и временные файлы
+**/build/
+**/dist/
+**/out/
+.DS_Store
+Thumbs.db
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Файлы загрузок (если не хотим хранить загруженные файлы в репозитории)
+server/uploads/
+
+# React / клиент
+client/.env
+client/.env.*
+client/build/
+client/public/
